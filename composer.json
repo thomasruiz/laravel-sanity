@@ -1,0 +1,24 @@
+{
+    "name": "thomasruiz/laravel-sanity",
+    "description": "A sanity checker for your laravel configuration",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.2",
+        "illuminate/console": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelSanity\\": "src/LaravelSanity/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Ruiz",
+            "email": "contact@thomasruiz.eu"
+        }
+    ]
+}
