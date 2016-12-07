@@ -19,7 +19,7 @@ You must install this service provider.
 ## Example
 
 ```
-$ php artisan tinker sanity production
+$ php artisan sanity production
 [app.env] expected to be "production", "local" found
 [app.url] expected to NOT match "/localhost/", "http://localhost" found
 [mail.driver] expected to NOT be "log", "log" found
